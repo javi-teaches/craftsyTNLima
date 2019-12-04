@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+@import url('normalize.css');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  background-image: url(../images/bg.png);
+}
+
+ul,
+ol {
+  padding: 0;
+  margin: 0;
+  list-style: none; /* eliminar el bullet de la lista */
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+}
+
+.container {
+  width: 1140px;
+  margin: auto;
+  overflow: hidden;
+}
+
+.main-header {
+  background-color: tomato;
+  padding: 10px;
+  margin-bottom: 30px;
+}
+
+.logo,
+.left-navbar, 
+.left-navbar li,
+.right-navbar li {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.left-navbar {
+  margin-left: 30px;
+}
+
+.right-navbar {
+  float: right;
+  margin-top: 7px;
+}
+
+.left-navbar a,
+.right-navbar a {  
+  color: #ffffff;
+  text-transform: uppercase;
+  margin-right: 10px;
+}
+
+.left-navbar a:hover,
+.right-navbar a:hover {
+  color: #000000;
+}
+
+.products-list {
+  width: 800px;
+  background-color: #ffffff;
+  float: left;
+}
+
+.tutorials {
+  width: 320px;
+  float: right;
+}
+
+.product-detail {
+  width: 380px;
+  float: left;
+  margin: 10px;
+}
+
+.product-detail img {
+  width: 100%;
+}
+
+.call-to-action {
+  background-color: tomato;
+  padding: 10px 25px;
+  color: #fff;
+  min-width: 150px;
+  text-align: center;
+}
+
+.call-to-action:hover {
+  background-color: #000000; 
+}
+
+.tutorials-title {
+  background-color: #ffffff;
+  border: solid 1px #77b1b6;
+  padding: 10px;
+  margin: 0 0 30px;
+}
+
+.tutorials-details {
+  margin-bottom: 40px;
+  border-top: solid 1px #77b1b6;
+  border-left: solid 1px #77b1b6;
+}
+
+.tutorials-details li {
+  background-color: #ffffff;
+  border-bottom: solid 1px #77b1b6;
+  border-right: solid 1px #77b1b6;
+  padding: 10px;
+}
+
+.tutorials-details img {
+  float: left;
+  margin-right: 15px;
+}
+
+.advertising {
+  padding: 0 10px 15px;
+  background-color: #ffffff;
+  border: solid 1px #77b1b6;
+}
+
+.advertising img {
+  width: 100%;
+  margin-top: 15px;
+}
